@@ -8,13 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		73168AE31C8788750000AB58 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73168AE21C8788750000AB58 /* AppDelegate.swift */; };
-		73168AE51C8788750000AB58 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73168AE41C8788750000AB58 /* ViewController.swift */; };
-		73168AE81C8788750000AB58 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73168AE61C8788750000AB58 /* Main.storyboard */; };
-		73168AEB1C8788750000AB58 /* Counter.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 73168AE91C8788750000AB58 /* Counter.xcdatamodeld */; };
 		73168AED1C8788750000AB58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73168AEC1C8788750000AB58 /* Assets.xcassets */; };
-		73168AF01C8788750000AB58 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73168AEE1C8788750000AB58 /* LaunchScreen.storyboard */; };
 		73168AFB1C8788760000AB58 /* CounterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73168AFA1C8788760000AB58 /* CounterTests.swift */; };
 		73168B061C8788760000AB58 /* CounterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73168B051C8788760000AB58 /* CounterUITests.swift */; };
+		73168B141C878D3D0000AB58 /* CounterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73168B131C878D3D0000AB58 /* CounterViewController.swift */; };
+		73168B301C87A4630000AB58 /* Icon-60.png in Resources */ = {isa = PBXBuildFile; fileRef = 73168B271C87A4630000AB58 /* Icon-60.png */; };
+		73168B311C87A4630000AB58 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 73168B281C87A4630000AB58 /* Icon-72.png */; };
+		73168B321C87A4630000AB58 /* Icon-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 73168B291C87A4630000AB58 /* Icon-72@2x.png */; };
+		73168B331C87A4630000AB58 /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 73168B2A1C87A4630000AB58 /* Icon-Small-50.png */; };
+		73168B341C87A4630000AB58 /* Icon-Small-50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 73168B2B1C87A4630000AB58 /* Icon-Small-50@2x.png */; };
+		73168B351C87A4630000AB58 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 73168B2C1C87A4630000AB58 /* Icon.png */; };
+		73168B361C87A4630000AB58 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 73168B2D1C87A4630000AB58 /* Icon@2x.png */; };
+		73168B371C87A4630000AB58 /* iTunesArtwork.png in Resources */ = {isa = PBXBuildFile; fileRef = 73168B2E1C87A4630000AB58 /* iTunesArtwork.png */; };
+		73168B381C87A4630000AB58 /* iTunesArtwork@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 73168B2F1C87A4630000AB58 /* iTunesArtwork@2x.png */; };
+		731F9A071C87B70700B0B8A2 /* bg1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 731F9A061C87B70700B0B8A2 /* bg1.jpg */; };
+		731F9A0A1C87B97300B0B8A2 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 731F9A081C87B97300B0B8A2 /* Default@2x.png */; };
+		731F9A0B1C87B97300B0B8A2 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 731F9A091C87B97300B0B8A2 /* Default.png */; };
+		731F9A0D1C87B9C600B0B8A2 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 731F9A0C1C87B9C600B0B8A2 /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,11 +47,7 @@
 /* Begin PBXFileReference section */
 		73168ADF1C8788750000AB58 /* Counter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Counter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		73168AE21C8788750000AB58 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		73168AE41C8788750000AB58 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		73168AE71C8788750000AB58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		73168AEA1C8788750000AB58 /* Counter.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Counter.xcdatamodel; sourceTree = "<group>"; };
 		73168AEC1C8788750000AB58 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		73168AEF1C8788750000AB58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		73168AF11C8788750000AB58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		73168AF61C8788760000AB58 /* CounterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CounterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		73168AFA1C8788760000AB58 /* CounterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterTests.swift; sourceTree = "<group>"; };
@@ -49,6 +55,20 @@
 		73168B011C8788760000AB58 /* CounterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CounterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		73168B051C8788760000AB58 /* CounterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterUITests.swift; sourceTree = "<group>"; };
 		73168B071C8788760000AB58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		73168B131C878D3D0000AB58 /* CounterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CounterViewController.swift; sourceTree = "<group>"; };
+		73168B271C87A4630000AB58 /* Icon-60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-60.png"; sourceTree = "<group>"; };
+		73168B281C87A4630000AB58 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		73168B291C87A4630000AB58 /* Icon-72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72@2x.png"; sourceTree = "<group>"; };
+		73168B2A1C87A4630000AB58 /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50.png"; sourceTree = "<group>"; };
+		73168B2B1C87A4630000AB58 /* Icon-Small-50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50@2x.png"; sourceTree = "<group>"; };
+		73168B2C1C87A4630000AB58 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		73168B2D1C87A4630000AB58 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		73168B2E1C87A4630000AB58 /* iTunesArtwork.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iTunesArtwork.png; sourceTree = "<group>"; };
+		73168B2F1C87A4630000AB58 /* iTunesArtwork@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iTunesArtwork@2x.png"; sourceTree = "<group>"; };
+		731F9A061C87B70700B0B8A2 /* bg1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bg1.jpg; sourceTree = "<group>"; };
+		731F9A081C87B97300B0B8A2 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		731F9A091C87B97300B0B8A2 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		731F9A0C1C87B9C600B0B8A2 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +99,19 @@
 		73168AD61C8788750000AB58 = {
 			isa = PBXGroup;
 			children = (
+				73168B271C87A4630000AB58 /* Icon-60.png */,
+				73168B281C87A4630000AB58 /* Icon-72.png */,
+				73168B291C87A4630000AB58 /* Icon-72@2x.png */,
+				73168B2A1C87A4630000AB58 /* Icon-Small-50.png */,
+				73168B2B1C87A4630000AB58 /* Icon-Small-50@2x.png */,
+				73168B2C1C87A4630000AB58 /* Icon.png */,
+				73168B2D1C87A4630000AB58 /* Icon@2x.png */,
+				73168B2E1C87A4630000AB58 /* iTunesArtwork.png */,
+				73168B2F1C87A4630000AB58 /* iTunesArtwork@2x.png */,
+				731F9A091C87B97300B0B8A2 /* Default.png */,
+				731F9A081C87B97300B0B8A2 /* Default@2x.png */,
+				731F9A061C87B70700B0B8A2 /* bg1.jpg */,
+				731F9A0C1C87B9C600B0B8A2 /* Default-568h@2x.png */,
 				73168AE11C8788750000AB58 /* Counter */,
 				73168AF91C8788760000AB58 /* CounterTests */,
 				73168B041C8788760000AB58 /* CounterUITests */,
@@ -100,12 +133,9 @@
 			isa = PBXGroup;
 			children = (
 				73168AE21C8788750000AB58 /* AppDelegate.swift */,
-				73168AE41C8788750000AB58 /* ViewController.swift */,
-				73168AE61C8788750000AB58 /* Main.storyboard */,
+				73168B131C878D3D0000AB58 /* CounterViewController.swift */,
 				73168AEC1C8788750000AB58 /* Assets.xcassets */,
-				73168AEE1C8788750000AB58 /* LaunchScreen.storyboard */,
 				73168AF11C8788750000AB58 /* Info.plist */,
-				73168AE91C8788750000AB58 /* Counter.xcdatamodeld */,
 			);
 			path = Counter;
 			sourceTree = "<group>";
@@ -196,6 +226,7 @@
 				TargetAttributes = {
 					73168ADE1C8788750000AB58 = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = Y727C5WA83;
 					};
 					73168AF51C8788760000AB58 = {
 						CreatedOnToolsVersion = 7.2;
@@ -232,9 +263,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				73168AF01C8788750000AB58 /* LaunchScreen.storyboard in Resources */,
+				731F9A071C87B70700B0B8A2 /* bg1.jpg in Resources */,
+				73168B361C87A4630000AB58 /* Icon@2x.png in Resources */,
+				73168B381C87A4630000AB58 /* iTunesArtwork@2x.png in Resources */,
+				731F9A0A1C87B97300B0B8A2 /* Default@2x.png in Resources */,
+				73168B311C87A4630000AB58 /* Icon-72.png in Resources */,
+				731F9A0D1C87B9C600B0B8A2 /* Default-568h@2x.png in Resources */,
+				73168B341C87A4630000AB58 /* Icon-Small-50@2x.png in Resources */,
+				73168B321C87A4630000AB58 /* Icon-72@2x.png in Resources */,
+				73168B351C87A4630000AB58 /* Icon.png in Resources */,
+				73168B331C87A4630000AB58 /* Icon-Small-50.png in Resources */,
 				73168AED1C8788750000AB58 /* Assets.xcassets in Resources */,
-				73168AE81C8788750000AB58 /* Main.storyboard in Resources */,
+				731F9A0B1C87B97300B0B8A2 /* Default.png in Resources */,
+				73168B371C87A4630000AB58 /* iTunesArtwork.png in Resources */,
+				73168B301C87A4630000AB58 /* Icon-60.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,9 +301,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				73168AE51C8788750000AB58 /* ViewController.swift in Sources */,
 				73168AE31C8788750000AB58 /* AppDelegate.swift in Sources */,
-				73168AEB1C8788750000AB58 /* Counter.xcdatamodeld in Sources */,
+				73168B141C878D3D0000AB58 /* CounterViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,25 +336,6 @@
 			targetProxy = 73168B021C8788760000AB58 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		73168AE61C8788750000AB58 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				73168AE71C8788750000AB58 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		73168AEE1C8788750000AB58 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				73168AEF1C8788750000AB58 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		73168B081C8788760000AB58 /* Debug */ = {
@@ -403,10 +425,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Counter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = YZ.Counter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -414,10 +439,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Counter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = YZ.Counter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -488,6 +516,7 @@
 				73168B0C1C8788760000AB58 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		73168B0D1C8788760000AB58 /* Build configuration list for PBXNativeTarget "CounterTests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +525,7 @@
 				73168B0F1C8788760000AB58 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		73168B101C8788760000AB58 /* Build configuration list for PBXNativeTarget "CounterUITests" */ = {
 			isa = XCConfigurationList;
@@ -504,21 +534,9 @@
 				73168B121C8788760000AB58 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		73168AE91C8788750000AB58 /* Counter.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				73168AEA1C8788750000AB58 /* Counter.xcdatamodel */,
-			);
-			currentVersion = 73168AEA1C8788750000AB58 /* Counter.xcdatamodel */;
-			path = Counter.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 73168AD71C8788750000AB58 /* Project object */;
 }
